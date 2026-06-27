@@ -1,20 +1,21 @@
-# Netflix SQL Data Analysis
+## Problem Statement
+Analyze Netflix content dataset to uncover trends in content production, genre popularity, and regional distribution.
 
-## Overview
-
-Performed exploratory data analysis on a Netflix dataset using SQL to uncover trends in content distribution, genres, and release patterns.
+## Key Analysis Performed
+- Year-over-year growth using SQL aggregations
+- Genre popularity using GROUP BY and ranking functions
+- Country-wise content distribution using joins and filtering
+- Identified peak production years and content shifts post-2015
 
 ## Key Insights
+- Netflix content saw exponential growth after 2015
+- Drama and Comedy dominate global content share
+- US and India contribute highest content volume
+- Movies dominate over TV Shows in early years, later balanced
 
-* Analyzed content growth trends over the years
-* Identified most popular genres and content types (Movies vs TV Shows)
-* Explored country-wise content distribution and production patterns
-* Examined rating classifications and audience targeting
-
-## Tools Used
-
-* SQL
-
-## Project Files
-
-* netflix_analysis.sql
+## SQL Concepts Used
+- CTEs (WITH clause)
+- Window Functions (RANK, ROW_NUMBER)
+- CASE statements
+- Aggregations (COUNT, AVG)
+- Data Cleaning using string/date functions
