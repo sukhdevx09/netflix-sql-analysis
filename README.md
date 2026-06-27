@@ -1,15 +1,20 @@
 # Netflix SQL Data Analysis
 
 ## Overview
-Analyzed Netflix dataset using SQL to extract insights on content trends, genres, and growth patterns.
+
+Performed exploratory data analysis on a Netflix dataset using SQL to uncover trends in content distribution, genres, and release patterns.
 
 ## Key Insights
-- Content growth over years
-- Most popular genres
-- Country-wise distribution
+
+* Analyzed content growth trends over the years
+* Identified most popular genres and content types (Movies vs TV Shows)
+* Explored country-wise content distribution and production patterns
+* Examined rating classifications and audience targeting
 
 ## Tools Used
-- SQL
+
+* SQL
 
 ## Project Files
-- netflix_analysis.sql
+
+* netflix_analysis.sql
